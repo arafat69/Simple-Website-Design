@@ -17,3 +17,13 @@
 <img src="images/login.PNG" width='100%'>
 
 
+### Social Link
+
+---
+
+<a target="_blank" href="https://www.facebook.com/arafatar69">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1200px-Facebook_Logo_%282019%29.png" width="40" height="">
+  </a>
+<a target="_blank" href="https://wa.me/8801704039173" style="margin-left:15px">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1021px-WhatsApp.svg.png" width="40" height="">
+  </a>
