@@ -1,7 +1,7 @@
 # Simple Website Design  
 
-<!-- [Live Demo](https://adoring-bhabha-f21cb4.netlify.app)   -->
-<a href="https://adoring-bhabha-f21cb4.netlify.app" target='_blank'>Live Demo</a> 
+[Live Demo](https://adoring-bhabha-f21cb4.netlify.app)  
+<!-- <a href="https://adoring-bhabha-f21cb4.netlify.app" target='_blank'>Live Demo</a>  -->
 
 ---
 
