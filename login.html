@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Arafat-An Awesome portfolio Webside</title>
+	<link rel="stylesheet" href="">
+</head>
+<style>
+	body{
+		padding: 0;
+		margin: 0;
+		background-image: url(images/img1.jpg);
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center;
+		height: 100vh;
+		font-family: 'Poppins', sans-serif;
+	}
+	.wrapper{
+		width: 320px;
+		height: 400px;
+		position: absolute;
+		background-color:#0202029c;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 45px 30px;
+	}
+	.avator{
+		position: absolute;
+		width: 80px;
+		height: 80px;
+		border-radius: 50%;
+		top:-40px;
+		left: calc(50% - 40px);
+	}
+	.wrapper h2{
+		text-align: center;
+		font-size: 21px;
+		color: #ddd;
+		text-transform: uppercase;
+	}
+	.formbox{
+		margin-top: 30px;
+	}
+	.formbox input{
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		outline: none;
+		overflow: hidden;
+		margin-bottom: 16px;
+	}
+	.formbox label{
+		font-size: 18px;
+		font-weight: 500;
+		color: #ddd;
+
+	}
+	input[type=text],
+	input[type=password],
+	input[type=email]{
+		height: 32px;
+		border: none;
+		border-bottom: 1px solid #808B96;
+		font-size: 16px;
+		padding: 1px 0;
+		background: transparent;
+		transition: 1s;
+		color: #2980B9;
+	}
+	input[type=text]:focus,
+	input[type=password]:focus,
+	input[type=email]:focus{
+		border-bottom: 1px solid #16A085;
+		color: #16A085;
+	}
+	input[type=submit]{
+		height: 38px;
+		border: none;
+		border-radius: 20px;
+		background-color: red;
+		margin-top: 30px;
+		font-size: 18px;
+		text-transform: capitalize;
+		color: #ddd;
+		cursor: pointer;
+	}
+	input[type=checkbox]{
+		width: 18px;
+		height: 18px;
+		margin-right: 8px;
+		margin: 12px auto;
+		margin-left: 60px;
+	}
+	input[type=checkbox]:checked{
+       color: #16A085;
+       background-color: black;
+	}
+	.back a{
+		padding: 8px 16px;
+		color: whitesmoke;
+		margin-top: 32px;
+		float: left;
+		margin-left: 32px;
+		border-radius: 25px;
+		text-decoration: none;
+		font-weight: 300;
+		transition: 0.4s;
+		border-width: 2px;
+		border-style: solid;
+		border-color:brown aqua chocolate chartreuse;
+	}
+	.back a:hover{
+        background-color:#0202025c;
+        border-width: 2px;
+		border-style: solid;
+		border-color: red greenyellow crimson aqua;
+		color: orange;
+	}
+</style>
+<body>
+	<div class="back">
+		<a href="index.html">Back Here</a>
+	</div>
+	<div class="wrapper">
+			<img src="images/img1.png" alt="" class="avator">
+		<h2>Login form</h2>
+		<div class="formbox">
+			<form action="">
+				<label for="">Username</label>
+				<input type="text" name="" placeholder="Enter Username" required="1">
+				<label for="">Email</label>
+				<input type="email" name="" placeholder="Enter Email" required="1">
+				<label for="">Password</label>
+				<input type="password" name="" placeholder="Enter Password" required="1">
+				<input type="submit" name="btn" value="Login Here">
+
+				<input type="checkbox" name="">
+				<label for="">Remember Me</label>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
