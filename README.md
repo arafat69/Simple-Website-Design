@@ -1,6 +1,4 @@
-# Simple Website Design
-
----
+# Simple Website Design  
 
 [Live Demo](https://adoring-bhabha-f21cb4.netlify.app)  
 
